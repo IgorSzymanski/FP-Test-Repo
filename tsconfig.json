@@ -1,0 +1,42 @@
+{
+	"compilerOptions": {
+		"lib": ["esnext", "es6", "dom"],
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"declaration": false,
+		"noImplicitAny": true,
+		"removeComments": true,
+		"noLib": false,
+		"skipLibCheck": true,
+		"strictNullChecks": true,
+		"allowSyntheticDefaultImports": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"strictFunctionTypes": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"target": "es2018",
+		"sourceMap": true,
+		"outDir": "./dist",
+		"baseUrl": "./src",
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"alwaysStrict": true,
+		"paths": {
+			"~/*": ["*"],
+			"~application/*": ["application/*"],
+			"~library/*": ["library/*"],
+			"~generation-1/*": ["library/generation-1/*"],
+			"~generation-2/*": ["library/generation-2/*"],
+			"~generation-3/*": ["library/generation-3/*"],
+			"~generation-4/*": ["library/generation-4/*"],
+			"~generation-5/*": ["library/generation-5/*"],
+			"~generation-6/*": ["library/generation-6/*"],
+			"~generation-7/*": ["library/generation-7/*"],
+			"~generation-8/*": ["library/generation-8/*"]
+		},
+		"typeRoots": ["./node_modules/@types"]
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules", "**/*.spec.ts", "dist"]
+}
