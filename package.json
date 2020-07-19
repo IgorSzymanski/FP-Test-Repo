@@ -32,7 +32,7 @@
 		"graphql-compose-pagination": "^6.0.3",
 		"graphql-tag-pluck": "^0.8.7",
 		"kuroshiro": "^1.1.2",
-		"lodash": "^4.17.15",
+		"lodash": "^4.17.19",
 		"purify-ts": "^0.13.2",
 		"ramda": "^0.26.1",
 		"reflect-metadata": "0.1.12",
